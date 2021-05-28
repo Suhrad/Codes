@@ -7,7 +7,6 @@ void rotate(int a[10],int d,int n)
 	int q=d;
 	while(q<=n)
 	{ 
-		static int j=0;
 		int i=0;
 		int temp=a[i];
 		while(i<n)
@@ -16,7 +15,6 @@ void rotate(int a[10],int d,int n)
 		i++;
 		}
 		a[i]=temp;
-				j++;
 		q++;
 		
 	}
